@@ -1,0 +1,19 @@
+!table
+!version 300
+!charset WindowsCyrillic
+!edit_version 650
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 6
+    ИдОН Integer Index 1 ;
+    ИмяСобственное Char (100) ;
+    ПолноеНаименование Char (200) ;
+    Тип Char (50) ;
+    ИсточникГеометрии Char (50) ;
+    Примечание Char (254) ;
+begin_metadata
+"\MapInfo" = ""
+"\MapInfo\TableID" = "511add6b-f516-4382-97e7-e899038a0049"
+"\IsReadOnly" = "FALSE"
+end_metadata

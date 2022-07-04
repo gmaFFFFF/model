@@ -1,0 +1,23 @@
+!table
+!version 1000
+!charset WindowsCyrillic
+
+Definition Table
+  File "realty.xlsx"
+  Type XLS Titles Range "Лист1!A2:J18"
+  Fields 10
+    ИдОбъектаНедвижимости Integer ;
+    КадНомерОКС Char (34) ;
+    НаименованиеОбъектаНедвижимости Char (118) ;
+    НазначениеОбъектаНедвижимости Char (122) ;
+    ВидОбъектаНедвижимости Char (20) ;
+    ЕдиницаИзм Char (4) ;
+    ОсновнаяХарактеристика Char (14) ;
+    КоличествоЭтажей Char (2) ;
+    МатериалСтен Char (18) ;
+    Примечание Char (1) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "48b3bb64-f536-4155-9509-638f2f799a6f"
+end_metadata
